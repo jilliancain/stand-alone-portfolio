@@ -8,12 +8,14 @@ YOUR STYLES
 h1
 
 { font-family: 'Baloo Bhaina', cursive;
-font-size: 40px}
+font-size: 40px;
+text-align: center;}
 
 h3
 
 { font-family: 'Baloo Bhaina', cursive;
-color:aliceblue}
+color:aliceblue;
+text-align: center;}
 header {
   display: flex;
   justify-content: center;
@@ -28,6 +30,7 @@ figure img {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 figure {
@@ -35,7 +38,7 @@ figure {
     padding: 20px;
     width: 30%;
     display: flex;
-    
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Baloo Bhaina', cursive;
@@ -57,6 +60,10 @@ figure {
     font-family: 'Baloo Bhaina', cursive;
 }
 
+footer 
+{ font-family: 'Baloo Bhaina', cursive;
+color:aliceblue;
+text-align: center;}
 
 /********************
 MEDIA QUERIES

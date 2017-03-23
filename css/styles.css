@@ -5,6 +5,15 @@ YOUR STYLES
 
 /* Header */
 
+h1
+
+{ font-family: 'Baloo Bhaina', cursive;
+font-size: 40px}
+
+h3
+
+{ font-family: 'Baloo Bhaina', cursive;
+color:aliceblue}
 header {
   display: flex;
   justify-content: center;
@@ -30,6 +39,7 @@ figure {
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Baloo Bhaina', cursive;
+    color:palevioletred;
 }
 
 
